@@ -1,0 +1,139 @@
+.header h1{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+}
+
+.section-one{
+    width: 600px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 20px;
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.boton-one{
+    width: auto;
+    background: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+.boton-one:hover{
+    background-color: green;
+    transition: transform 250ms;
+    transform: translateY(-10px);
+}
+
+.centrado-one{
+    text-align: center;
+}
+
+.section-two{
+    width: 600px;
+    margin: auto;
+}
+.box-two{
+    display: flex;
+    justify-content: space-between;
+}
+.box-two div{
+    width: 286px;
+}
+.boxdiv-two p:first-child{
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.boton-two{
+    width: auto;
+    background: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+.boton-two:hover{
+    background-color: rgb(0, 109, 128);
+    transition: transform 250ms;
+    transform: translateY(-10px) translateX(-5px);
+}
+
+.section-three{
+    width: 600px;
+    margin: auto;
+}
+.box-three{
+    display: flex;
+    justify-content: space-between;
+}
+.box-three div{
+    width: 286px;
+}
+.boxdiv-three p:first-child{
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.boton-three{
+    width: auto;
+    background: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+.section-four{
+    width: 600px;
+    margin: auto;
+}
+.box-four{
+    display: flex;
+    justify-content: space-between;
+}
+.box-four div{
+    width: 286px;
+}
+
+.boxdiv-four p:first-child{
+    font-weight: bold;
+    font-size: 27px;
+}
+.boton-four{
+    width: auto;
+    background: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+.email{
+    width: 600px;
+    margin: auto;
+}
+.email div{
+    width: 100%;
+    border: 1px solid;
+}
+footer{
+    width: 600px;
+    text-align: center;
+    margin: auto;
+}
+.redes-sociales{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+h3{
+    font-size: 36px;
+}
+address{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
