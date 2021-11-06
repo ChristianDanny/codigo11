@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .wrapper{
+            display: flex;
+            flex-direction:column;
+            height: 100vh;
+        }
+        header,
+        footer{
+            background: red;
+            padding: 20px;
+        }
+
+        main{
+            flex-grow: 1;
+            display: flex;
+        }
+        aside{
+            background: green;
+            width: 150px;
+        }
+        main>section{
+            flex-grow: 1;
+            background: pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            header
+        </header>
+        <main>
+            <aside>ASIDE</aside>
+            <section>
+                CONTENIDO PRINCIPAL
+                <section>Section 1</section>
+                <section>Section 2</section>
+            </section>
+        </main>
+        <footer>
+            footer
+        </footer>
+    </div>
+</body>
+</html>

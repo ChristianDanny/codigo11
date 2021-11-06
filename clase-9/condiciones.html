@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            background: red;
+        }
+        /* orientacion portrait vertical >320px <440px*/
+        @media (min-width:320px) and (max-width:440px)and (orientation: portrait){
+            div{
+                background: blue;
+            }
+        }
+        @media (min-width:600px),(max-width:440px){
+            div{
+                background: blueviolet  ;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <header>
+            HEADER
+        </header>
+        <main>
+            MAIN
+        </main>
+        <footer>
+            FOOTER
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        .grid{
+            display: grid;
+            width: 800px;
+            overflow: hiden;/*Para que no sean los valores que desbordan*/
+            /*grid-template-columns: 150px 150px 150px 150px;*/
+            grid-template-columns: repeat(4, 150px); /*para definir losvalores de top bot righ left*/
+            /*grid-column-gap:20px*/
+            /*grid-row-gap:20px*/
+            /*grid--gap:20px 20px*/
+            gap: 20px;
+        }
+        .grid img{
+            display: block;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">   
+        <div><img src="https://picsum.photos/150/300?random=1" alt=""></div>
+        <div><img src="https://picsum.photos/150/300?random=2" alt=""></div>
+        <div><img src="https://picsum.photos/150/300?random=3" alt=""></div>
+        <div><img src="https://picsum.photos/150/300?random=4" alt=""></div>
+        <div><img src="https://picsum.photos/150/300?random=5" alt=""></div>
+        <div><img src="https://picsum.photos/150/300?random=6" alt=""></div>
+        <div><img src="https://picsum.photos/150/300?random=7" alt=""></div>
+        <div><img src="https://picsum.photos/150/300?random=8" alt=""></div>
+    </div>
+</body>
+</html>
