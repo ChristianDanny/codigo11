@@ -79,7 +79,15 @@ function semanal(){
 }
 semanal();
 */
-
+/*
+//EJERCICIO 7
+function pulgadas(){
+    let metros =Number(prompt("Ingrese los metros que necesita"));
+    let cambio = metros * 39.3701;
+    alert(`Total de pulgadas es: ${cambio}`);
+}
+pulgadas();
+*/
 /*
 EJERCICIO 8
 function moneda(){
@@ -105,24 +113,22 @@ personal();
 */
 
 /*
-EJERCICIO 10
+//EJERCICIO 10
 function personas(){
     //debugger
     menor = 999;
-    nombres = ``;
     for(let i=0; i<3;i++){
         let nombre= prompt(`Ingrese nombre`);
         let age = Number(prompt('Ingresa tu edad'));
-        if(menor > age && nombres == nombre){
+        if(menor > age){
             menor = age;
-            nombres = nombre;
         }
 
         console.log(nombre);
         console.log(age);
     }
     
-    console.log(`la edad menor es:  `, menor, nombre)
+    alert(`la edad menor es:  ${menor}`);
 }
 personas();
 */
@@ -225,7 +231,7 @@ function focos(){
 }
 focos();
 */
-
+/*
 //EJERCICIO 15
 function votar() {
     let n = prompt(`cantidad de personas`);
@@ -239,3 +245,4 @@ function votar() {
     }
 }
 votar();
+*/
